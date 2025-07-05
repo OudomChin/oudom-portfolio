@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Create google font */
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("/fonts/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@theme {
+
+  /* Colors */
+  --color-primary:#FFFFFF ;
+  --color-asset: #0A0E15;
+  --color-secondary: #4265D6;
+
+  /* Typography */
+  --font-primary: "Poppins", sans-serif;
+  --font-scondary: "Inter-Medium", sans-serif;
+  --font-asset: "Inter-Regular", sans-serif;
+}
+@layer utilities {
+  
+  body {
+    @apply font-asset text-asset;
+  }
+
+  .flex-center {
+    @apply flex justify-between items-center;
+  }
+
+  .flex-col-center {
+    @apply flex flex-col justify-center items-center;
+  }
+}
+
+@layer components {
+  /* Your custom components here */
+
+}
