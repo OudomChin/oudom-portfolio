@@ -1,0 +1,11 @@
+services:
+  reactjs-svc:
+    image: 
+    container_name: reactjs_cont
+    ports:
+      - "3000:80"
+    networks:
+      - proxy
+networks:
+  proxy:
+    external: true

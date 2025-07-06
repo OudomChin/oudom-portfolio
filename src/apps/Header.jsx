@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <section className="fixed top-5 left-0 right-0 z-50">
       <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-14 xl:px-18">
-        <div className="backdrop-blur-xs border border-asset/10 p-1 rounded-3xl md:rounded-full">
+        <div className="backdrop-blur-sm border border-asset/10 p-1 rounded-3xl md:rounded-full">
           <div className="bg-asset/10 backdrop-blur-xs p-1 md:p-1.5 rounded-full">
             <div className="flex justify-between items-center text-sm xs:text-xs ">
               <a href="/" className="font-primary font-bold text-lg px-2">
@@ -38,9 +38,7 @@ const Header = () => {
             }`}
           >
             <Navbar />
-            <div className="w-full">
-              <Button>Contact</Button>
-            </div>
+            <Button>Contact</Button>
           </nav>
         </div>
       </div>
