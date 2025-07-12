@@ -16,18 +16,16 @@
   src: url("/fonts/Inter-Regular.ttf") format("truetype");
 }
 
-@theme {
+/* @theme {
 
-  /* Colors */
   --color-primary:#FFFFFF ;
   --color-asset: #0A0E15;
   --color-secondary: #4265D6;
 
-  /* Typography */
   --font-primary: "Poppins", sans-serif;
   --font-scondary: "Inter-Medium", sans-serif;
   --font-asset: "Inter-Regular", sans-serif;
-}
+} */
 @layer utilities {
   
   body {
